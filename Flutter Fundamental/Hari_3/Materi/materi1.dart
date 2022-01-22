@@ -1,6 +1,13 @@
-import 'dart:io';
 void main() {
-  print("masukan password: ");
-  String? inputText = stdin.readLineSync();
-  print("password: "+ inputText!);
+    //final
+    final umur = 21;
+    print(umur);
+
+    final waktu = new DateTime.now();
+    print(waktu);
+
+    //const
+    const umur = 21;
+    print(umur);
+
 }

@@ -1,7 +1,8 @@
-void main () {
-    print(true || true); // true
-    print(true || false); // true
-    print(true || false || false); // true
-    print(false || false); // false
-
+void main() {
+   var name = "Azhar" ;// Tipe
+   var angka = 17;
+   var todayIsFriday = false ;
+   print(name); // "Azhar"
+   print(angka) ;// 12
+   print(todayIsFriday); // false
 }
